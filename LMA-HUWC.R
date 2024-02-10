@@ -17,3 +17,5 @@ quantile(km_risco, probs = 0.5, conf.int = TRUE)
 autoplot(km_risco)
 survdiff(Surv(SOBREVIDA,OBITO)~Estratificação.de.risco, data = dados) #p da comparação entre as curvas
 
+# Análise por Idade
+
